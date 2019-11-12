@@ -2,32 +2,27 @@ doctype html
 html
   head
     title Home
-    link(type='text/css', href='css/nav.css')
-    //- link(rel='stylesheet', type='text/css', href='/header.css')
-    //- link(rel='stylesheet', type='text/css', href='../public/css/content.css')
-    //- link(rel='stylesheet', type='text/css', href='../public/css/footer.css')
-    //- link(rel='stylesheet', type='text/css', href='../public/css/mac-pic.css')
+    link(rel='stylesheet', type='text/css', href='/css/nav.css')
+    link(rel='stylesheet', type='text/css', href='/css/header.css')
+    link(rel='stylesheet', type='text/css', href='/css/content.css')
+    link(rel='stylesheet', type='text/css', href='/css/footer.css')
+    link(rel='stylesheet', type='text/css', href='/css/mac-pic.css')
     link(href='font/css/all.css', rel='stylesheet')
     style
-      //- include css/nav.css
-      include css/content.css
-      include css/footer.css
-      include css/header.css
-      include css/mac-pic.css
   body   
     #Nav
       #Brand
-        a(href='Index.html') Boomerang
+        a(href='/') Boomerang
       ul.menu
         li
-          a(href='Index.html') Home
+          a(href='/') Home
         li
           a(href='#') Gi&#x1EDB;i thi&#x1EC7;u
         li.khoa
           a(href='#') Khoa
           ul.submenu
             li#submenu-khoa
-              a(href='KhoaCNTT.html')
+              a(href='KhoaCNTT')
                 | C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin 
                 i.fas.fa-chevron-right.icon-arrow-right
               ul.submenu-child
@@ -106,8 +101,7 @@ html
         #row-1
           .img-box
             // set background image
-            //- .img-element(style='background-image: url(../image/content-img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg);')
-            .imp-element(style='background-image: url(image/content-img/randy-tarampi-U2eUlPEKIgU-unsplash)')
+            .img-element(style='background-image: url(../image/content-img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg);')
             // text under image
             p.img-notes BIG DREAM
           .img-box
