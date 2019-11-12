@@ -1,0 +1,275 @@
+#content{
+	width: 100%;
+	/*margin: auto;*/
+	margin-top: 22px;
+}
+
+#content-cap{
+	display: flex;
+	justify-content: center;
+}
+
+#content-cap > p{
+	font-family: "Arial, Helvetica, sans-serif;";
+	font-size: 22px;
+	color: rgba(0,0,0,.3);
+	font-style: italic;
+	margin: -13px 0px 0px;
+}
+
+#hr1{
+	width: 530px;
+	height: 0px;
+	margin: 0px 23px 0px 0px;
+	color: rgba(112,112,112,.08);
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+#hr2{
+	width: 530px;
+	height: 0px;
+	margin: 0px 0px 0px 23px;
+	color: rgba(112,112,112,.08);
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+#row-1{
+	display: flex;
+	justify-content: center;
+}
+
+#row-2{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#content-img{
+	width: 1290px;
+	margin: auto;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.img-box{
+	width: 310px;
+	height: 220px;
+	margin: 0px 10px 0px 10px;
+}
+
+.img-effect{
+	width: 285px;
+	height: 173px;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: rgb(119,119,119);
+	background: linear-gradient(180deg, rgba(119,119,119,0.6) 0%, rgba(32,26,26,0.6) 100%);
+	margin-top: -227px;
+}
+
+.img-element{
+	
+	width: 285px;
+	height: 173px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0px 30px 80px;
+	color: rgba(0,0,0,.16);
+}
+
+.img-element > p{
+	font-family: "Poppins";
+	color: #FFFF;
+	font-size: 16px;
+	margin-top: 0px;
+	display: block;
+}
+
+.img-notes{
+	font-family: "Poppins";
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	margin-top:16px;
+}
+
+.img-text{
+	font-family: "Poppis-Regular";
+	color: #FFFF;
+	font-size: 17px;
+	display: block;
+	width: 230px;
+	text-align: center;
+	margin: auto;
+	margin-top: -100px;
+}
+
+#content-table-1{
+	background-color: #ABC8C7;
+	width: 1200px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#content-table-1  table,th,td {
+	border-style: solid;
+	text-align: center;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+#content-table-1 table > tbody > tr > th{
+	padding: 7px 20px 7px 20px;
+	font-size: 16px;
+
+}
+
+#content-table-1 table > tbody > tr > td{
+	padding: 4px 16px 4px 16px;
+}
+
+#content-table-1 > table {
+	margin-top: 10px;
+	margin: auto;
+	width: 1100px;
+}
+
+#content-table-1 > table > tbody > tr > td > a{
+	font-size: 17px;
+	font-family: :"Arial", sans-serif;
+	text-decoration: none;
+	transition: font-weight 0.3s;
+	color: #0e4c44c7;
+}
+
+#content-table-1 > table > tbody > tr > td > a:hover{
+	font-weight: bold;
+}
+
+
+#select-years-1 > select{
+	width: 150px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+
+#area-select{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+#area-select > p{
+	font-family: "arial",sans-serif;
+	color: #A342F1;
+	font-size: 20px;
+}
+
+#content-second{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#content-table-3{
+	width: 595px;
+	height: 700px;
+	background-color: #9DA3A4;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+#content-table-2{
+	width: 595px;
+	height: 700px;
+	background-color: #D5C5C8;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+#li-te{
+	width: 1100px;
+	background-color: #f7ff7d;
+	margin: auto;
+	border-radius: 8px;
+}
+.li-te-cap{
+	color: #669fc7;
+	font-weight: normal;
+	margin-left: 32px;
+	padding-top: 20px;
+}
+
+.li-te-cap::before{
+	position: relative;
+    background: orange;
+    display: block;
+    height: 4px;
+    width: 97%;
+    top: 40px;
+    content: "";
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.formTD{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background-color: #e0d9d9;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dataTD{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 17px;
+	text-align: center;
+	background-color: white;
+}
+
+.dataTD > a{
+	color: #349c4a;
+	transition: font-weight .5s;
+}
+
+.dataTD > a:hover{
+	font-weight: bold;
+}
+
+.space30px{
+	margin-bottom: 8px;
+	margin-top: 0px;
+}
+
+.li-te-styletable{
+	margin-left: 32px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+

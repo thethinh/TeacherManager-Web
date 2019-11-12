@@ -1,0 +1,211 @@
+doctype html
+html
+  head
+    title Home
+    link(type='text/css', href='css/nav.css')
+    //- link(rel='stylesheet', type='text/css', href='/header.css')
+    //- link(rel='stylesheet', type='text/css', href='../public/css/content.css')
+    //- link(rel='stylesheet', type='text/css', href='../public/css/footer.css')
+    //- link(rel='stylesheet', type='text/css', href='../public/css/mac-pic.css')
+    link(href='font/css/all.css', rel='stylesheet')
+    style
+      //- include css/nav.css
+      include css/content.css
+      include css/footer.css
+      include css/header.css
+      include css/mac-pic.css
+  body   
+    #Nav
+      #Brand
+        a(href='Index.html') Boomerang
+      ul.menu
+        li
+          a(href='Index.html') Home
+        li
+          a(href='#') Gi&#x1EDB;i thi&#x1EC7;u
+        li.khoa
+          a(href='#') Khoa
+          ul.submenu
+            li#submenu-khoa
+              a(href='KhoaCNTT.html')
+                | C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin 
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='KhoaCNTT.html') C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin
+                li
+                  a(href='#') H&#x1EC7; th&#x1ED1;ng th&ocirc;ng tin
+                li
+                  a(href='#') Khoa h&#x1ECD;c m&aacute;y t&iacute;nh
+                li
+                  a(href='#') C&ocirc;ng ngh&#x1EC7; ph&#x1EA7;n m&#x1EC1;m
+                li
+                  a(href='#') An to&agrave;n m&aacute;y t&iacute;nh
+            li#submenu-khoa
+              a(href='#')
+                | V&ocirc; tuy&#x1EBF;n &dstrok;i&#x1EC7;n t&#x1EED; 
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='#') Xung s&#x1ED1; - Vi x&#x1EED; l&yacute;
+                li
+                  a(href='#') C&#x1A1; s&#x1EDF; KT v&ocirc; tuy&#x1EBF;n
+                li
+                  a(href='#') LT m&#x1EA1;ch - &Dstrok;o l&#x1B0;&#x1EDD;ng
+                li
+                  a(href='#') Ra-&Dstrok;a
+                li
+                  a(href='#') T&aacute;c chi&#x1EBF;n &dstrok;i&#x1EC7;n t&#x1EED;
+            li#submenu-khoa
+              a(href='#')
+                | Ho&aacute;-l&yacute; k&itilde; thu&#x1EAD;t
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='#') Ph&ograve;ng ho&aacute;
+                li
+                  a(href='#') K&#x1EF9; thu&#x1EAD;t m&ocirc;i tr&#x1B0;&#x1EDD;ng
+                li
+                  a(href='#') C&ocirc;ng ngh&#x1EC7; ho&aacute; h&#x1ECD;c
+                li
+                  a(href='#') V&#x1EAD;t l&yacute;
+                li
+                  a(href='#') Trung t&acirc;m ho&aacute;-l&yacute; KT
+            li
+              a(href='#') Trung t&acirc;m ngo&#x1EA1;i ng&#x1EEF;
+            li
+              a(href='HumanResources.html') Th&#x1ED1;ng k&ecirc; nh&acirc;n l&#x1EF1;c
+        li
+          a(href='#') K&#x1EBF; ho&#x1EA1;ch
+      div
+        ul#Extra-Menu
+          li#search-icon
+            a(href='#')
+              i.fas.fa-search
+          li#menu-icon
+            a(href='#')
+              i.fas.fa-bars
+    #Header
+      #content-nav
+        h1 Boomerang
+        p
+          | M&#x1ED9;t n&#x1A1;i gi&aacute;o d&#x1EE5;c ho&agrave;n thi&#x1EC7;n , m&#x1ED9;t m&ocirc;i tr&#x1B0;&#x1EDD;ng tho&#x1EA3; s&#x1EE9;c s&aacute;ng t&#x1EA1;o
+          | gi&uacute;p  b&#x1EA1;n c&oacute; nh&#x1EEF;ng b&#x1B0;&#x1EDB;c &dstrok;i v&#x1EEF;ng ch&#x1EAF;c tr&ecirc;n con
+          | &dstrok;&#x1B0;&#x1EDD;ng h&#x1ECD;c t&#x1EAD;p v&agrave; l&agrave;m vi&#x1EC7;c
+    #mac-pic
+      img(src='image/macbook.png', alt='This maybe is mac-picture', width='1100px', height='600px')
+    #content
+      #content-cap
+        hr#hr1
+        p About us
+        hr#hr2
+      #content-img
+        #row-1
+          .img-box
+            // set background image
+            //- .img-element(style='background-image: url(../image/content-img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg);')
+            .imp-element(style='background-image: url(image/content-img/randy-tarampi-U2eUlPEKIgU-unsplash)')
+            // text under image
+            p.img-notes BIG DREAM
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(../image/content-img/kyle-glenn-kvIAk3J_A1c-unsplash.jpg);')
+            // text under image
+            p.img-notes GHI CH&Uacute;
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text &Dstrok;&#x1EB7;t nh&#x1EEF;ng m&#x1EE5;c ti&ecirc;u cho b&#x1EA3;n th&acirc;n v&agrave; ho&agrave;n th&agrave;nh n&oacute;
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);')
+            // text under image
+            p.img-notes TRANG B&#x1ECA;
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text C&#x1A1; s&#x1EDF; v&#x1EAD;t ch&#x1EA5;t k&#x1EF9; thu&#x1EAD;t ti&ecirc;n ti&#x1EBF;n, hi&#x1EC7;n &dstrok;&#x1EA1;i
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/alfons-morales-YLSwjSy7stw-unsplash.jpg);')
+            // text under image
+            p.img-notes CUNG C&#x1EA4;P
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text Ngu&#x1ED3;n t&agrave;i li&#x1EC7;u h&#x1ECD;c t&#x1EAD;p v&ocirc; gi&aacute;
+        #row-2
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg);')
+            // text under image
+            p.img-notes &Dstrok;&Agrave;O T&#x1EA0;O
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text Kh&#x1EA3; n&abreve;ng l&agrave;m vi&#x1EC7;c nh&oacute;m c&utilde;ng r&#x1EA5;t quan tr&#x1ECD;ng
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/baim-hanif-pYWuOMhtc6k-unsplash.jpg);')
+            // text under image
+            p.img-notes &Dstrok;&#x1ED2;NG H&Agrave;NH
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text H&atilde;y c&utilde;ng nhau m&#x1EDF; ra m&#x1ED9;t ch&acirc;n tr&#x1EDD;i m&#x1EDB;i
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/edwin-andrade-4V1dC_eoCwg-unsplash.jpg);')
+            // text under image
+            p.img-notes PH&Aacute;T TRI&#x1EC2;N
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text Ch&uacute;ng t&ocirc;i s&#x1EB5;n s&agrave;ng l&#x1EAF;ng nghe v&agrave; &#x1EE7;ng h&#x1ED9; b&#x1EA1;n
+          .img-box
+            // set background image
+            .img-element(style='background-image: url(image/content-img/element5-digital-jCIMcOpFHig-unsplash.jpg);')
+            // text under image
+            p.img-notes LET&apos;S GO
+            // effect background
+            .img-effect
+            // text under image
+            p.img-text T&#x1EF1; tin v&agrave; m&#x1EA1;nh m&#x1EBD; &dstrok;&#x1EC3; ti&#x1EBF;n t&#x1EDB;i
+    #footer
+      #footer-head
+        #footer-head-contact
+          h3.footer-head-cap Li&ecirc;n h&#x1EC7;
+          p &Dstrok;&#x1ECB;a ch&#x1EC9; : H&#x1ECD;c vi&#x1EC7;n k&#x1EF9; thu&#x1EAD;t qu&acirc;n s&#x1EF1; 236 Ho&agrave;ng qu&#x1ED1;c Vi&#x1EC7;t, B&#x1EAF;c T&#x1EEB; Li&ecirc;m ,  H&agrave; N&#x1ED9;i
+          p &Dstrok;i&#x1EC7;n tho&#x1EA1;i : 0382977766
+          p Email : nguyenthinh16011998@Gmail.com
+          a(href='https://www.instagram.com/thinhby/', target='blank')
+            i.fab.fa-instagram
+          a(href='https://www.facebook.com/Thinhby', target='blank')
+            i.fab.fa-facebook
+          a(href='https://twitter.com/', target='blank')
+            i.fab.fa-twitter
+          a(href='https://www.tumblr.com/', target='blank')
+            i.fab.fa-tumblr
+        #footer-head-link
+          h3.footer-head-cap &Dstrok;&#x1AF;&#x1EDC;NG D&#x1EAA;N LI&Ecirc;N K&#x1EBE;T
+          a(href='https://www.facebook.com/Thinhby', target='blank') www.facebook.com
+          hr
+          a(href='https://www.instagram.com/thinhby/', target='blank') www.instagram.com
+          hr
+          a(href='http://mta.edu.vn/', target='blank') mta.edu.vn
+        #footer-head-img
+          h3.footer-head-cap &#x1EA2;NH N&#x1ED4;I B&#x1EAC;T
+          img(src='image/content-img/providence-doucet-mE5MBZX5sko-unsplash.jpg')
+          img(src='image/content-img/zachary-nelson-98Elr-LIvD8-unsplash.jpg')
+          img(src='image/content-img/wes-hicks-4-EeTnaC1S4-unsplash.jpg')
+          img(src='image/content-img/joanna-kosinska-LAaSoL0LrYs-unsplash.jpg')
+          img(src='image/content-img/antoine-dautry-_zsL306fDck-unsplash.jpg')
+          img(src='image/content-img/andrew-neel-cckf4TsHAuw-unsplash.jpg')
+      #footer-end
+        p#footer-end-text
+          i.far.fa-copyright
+          | 2019 Boomerang, b&#x1EA3;n design &dstrok;&#x1B0;&#x1EE3;c th&#x1EF1;c hi&#x1EC7;n b&#x1EDF;i
+        p#footer-end-user Nguy&#x1EC5;n Th&#x1EBF; Th&#x1ECB;nh
