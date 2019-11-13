@@ -1,8 +1,7 @@
 var express = require('express');
 var app = express();
-var path = require('path');
 
-var port = 3000;
+var port = 2916;
 
 app.set('view engine','pug');
 app.set('views','./views');
@@ -14,6 +13,10 @@ app.get('/',function(req,res){
 
 app.get('/KhoaCNTT',function(req,res){
 	res.render('KhoaCNTT');
+})
+
+app.get('/HumanResources',function(req,res){
+	res.render('HumanResources');
 })
 app.listen(port, function(){
 	console.log('Server listening on port'+port);

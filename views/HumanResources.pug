@@ -1,0 +1,208 @@
+doctype html
+
+html
+
+  head
+    title Home
+    link(rel='stylesheet' type='text/css' href='css/nav.css')
+    link(rel='stylesheet' type='text/css' href='css/header.css')
+    link(rel='stylesheet' type='text/css' href='css/content.css')
+    link(rel='stylesheet' type='text/css' href='css/footer.css')
+    link(rel='stylesheet' type='text/css' href='css/mac-pic.css')
+    link(href='font/css/all.css' rel='stylesheet')
+
+  body
+    #Nav
+      #Brand
+        a(href='/') Boomerang
+      ul.menu
+        li
+          a(href='/') Home
+        li
+          a(href='#') Gi&#x1EDB;i thi&#x1EC7;u
+        li.khoa
+          a(href='#') Khoa
+          ul.submenu
+            li#submenu-khoa
+              a(href='KhoaCNTT')
+                | C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin 
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='#') C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin
+                li
+                  a(href='#') H&#x1EC7; th&#x1ED1;ng th&ocirc;ng tin
+                li
+                  a(href='#') Khoa h&#x1ECD;c m&aacute;y t&iacute;nh
+                li
+                  a(href='#') C&ocirc;ng ngh&#x1EC7; ph&#x1EA7;n m&#x1EC1;m
+                li
+                  a(href='#') An to&agrave;n m&aacute;y t&iacute;nh
+            li#submenu-khoa
+              a(href='#')
+                | V&ocirc; tuy&#x1EBF;n &dstrok;i&#x1EC7;n t&#x1EED; 
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='#') Xung s&#x1ED1; - Vi x&#x1EED; l&yacute;
+                li
+                  a(href='#') C&#x1A1; s&#x1EDF; KT v&ocirc; tuy&#x1EBF;n
+                li
+                  a(href='#') LT m&#x1EA1;ch - &Dstrok;o l&#x1B0;&#x1EDD;ng
+                li
+                  a(href='#') Ra-&Dstrok;a
+                li
+                  a(href='#') T&aacute;c chi&#x1EBF;n &dstrok;i&#x1EC7;n t&#x1EED;
+            li#submenu-khoa
+              a(href='#')
+                | Ho&aacute;-l&yacute; k&itilde; thu&#x1EAD;t
+                i.fas.fa-chevron-right.icon-arrow-right
+              ul.submenu-child
+                li#submenu-child-brand B&#x1ED9; m&ocirc;n
+                li
+                  a(href='#') Ph&ograve;ng ho&aacute;
+                li
+                  a(href='#') K&#x1EF9; thu&#x1EAD;t m&ocirc;i tr&#x1B0;&#x1EDD;ng
+                li
+                  a(href='#') C&ocirc;ng ngh&#x1EC7; ho&aacute; h&#x1ECD;c
+                li
+                  a(href='#') V&#x1EAD;t l&yacute;
+                li
+                  a(href='#') Trung t&acirc;m ho&aacute;-l&yacute; KT
+            li
+              a(href='#') Trung t&acirc;m ngo&#x1EA1;i ng&#x1EEF;
+            li
+              a(href='HumanResources.html') Th&#x1ED1;ng k&ecirc; nh&acirc;n l&#x1EF1;c
+        li
+          a(href='#') K&#x1EBF; ho&#x1EA1;ch
+      div
+        ul#Extra-Menu
+          li#search-icon
+            a(href='#')
+              i.fas.fa-search
+          li#menu-icon
+            a(href='#')
+              i.fas.fa-bars
+    #Header(style='background-image: url(image/zoltan-fekeshazi-LG21yfvG8ls-unsplash.jpg); background-size: cover;')
+      #content-nav
+    #content
+      #content-cap
+        hr#hr1
+        p Human Resources
+        hr#hr2
+      #content-table-1
+        #area-select
+          p Select years :  
+          form#select-years-1
+            select(name='years')
+              option(value='2019') 2019
+              option(value='2019') 2018
+              option(value='2019') 2017
+        table
+          tr
+            th(style='width: 150px; height: 40px;') Khoa
+            th Ti&#x1EBF;n s&#x1EF9;
+            th Ti&#x1EBF;n s&#x1EF9; KH
+            th Th&#x1EA1;c s&#x1EF9;
+            th Gi&aacute;o s&#x1B0;
+            th Ph&oacute; gi&aacute;o s&#x1B0;
+            th Gi&#x1EA3;ng vi&ecirc;n cao c&#x1EA5;p
+            th Gi&#x1EA3;ng vi&ecirc;n ch&iacute;nh
+            th Gi&#x1EA3;ng vi&ecirc;n
+            th Tr&#x1EE3; gi&#x1EA3;ng
+            th T&#x1ED5;ng s&#x1ED1; gi&#x1EA3;ng vi&ecirc;n
+          tr
+            td(style='width: 150px; height: 40px;')
+              a(href='KhoaCNTT.html') C&ocirc;ng ngh&#x1EC7; th&ocirc;ng tin
+            td 40
+            td 50
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td(style='width: 150px; height: 40px;')
+              a(href='#') V&ocirc; tuy&#x1EBF;n &dstrok;i&#x1EC7;n t&#x1EED;
+            td 40
+            td 50
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td(style='width: 150px; height: 40px;')
+              a(href='#') Ho&aacute; l&yacute; k&itilde; thu&#x1EAD;t
+            td 40
+            td 50
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+          tr
+            td(style='width: 150px; height: 40px;')
+              a(href='#') Trung t&acirc;m ngo&#x1EA1;i ng&#x1EEF;
+            td 40
+            td 50
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+            td 1
+    #content-second
+      #content-table-2
+        p Th&#x1ED1;ng k&ecirc; theo h&#x1ECD;c h&agrave;m
+        table
+          td Khoa
+      #content-table-3
+    #footer
+      #footer-head
+        #footer-head-contact
+          h3.footer-head-cap Li&ecirc;n h&#x1EC7;
+          p &Dstrok;&#x1ECB;a ch&#x1EC9; : H&#x1ECD;c vi&#x1EC7;n k&#x1EF9; thu&#x1EAD;t qu&acirc;n s&#x1EF1; 236 Ho&agrave;ng qu&#x1ED1;c Vi&#x1EC7;t, B&#x1EAF;c T&#x1EEB; Li&ecirc;m ,  H&agrave; N&#x1ED9;i
+          p &Dstrok;i&#x1EC7;n tho&#x1EA1;i : 0382977766
+          p Email : nguyenthinh16011998@Gmail.com
+          a(href='https://www.instagram.com/thinhby/' target='blank')
+            i.fab.fa-instagram
+          a(href='https://www.facebook.com/Thinhby' target='blank')
+            i.fab.fa-facebook
+          a(href='https://twitter.com/' target='blank')
+            i.fab.fa-twitter
+          a(href='https://www.tumblr.com/' target='blank')
+            i.fab.fa-tumblr
+        #footer-head-link
+          h3.footer-head-cap &Dstrok;&#x1AF;&#x1EDC;NG D&#x1EAA;N LI&Ecirc;N K&#x1EBE;T
+          a(href='https://www.facebook.com/Thinhby' target='blank') www.facebook.com
+          hr
+          a(href='https://www.instagram.com/thinhby/' target='blank') www.instagram.com
+          hr
+          a(href='http://mta.edu.vn/' target='blank') mta.edu.vn
+        #footer-head-img
+          h3.footer-head-cap &#x1EA2;NH N&#x1ED4;I B&#x1EAC;T
+          img(src='image/content-img/providence-doucet-mE5MBZX5sko-unsplash.jpg')
+          img(src='image/content-img/zachary-nelson-98Elr-LIvD8-unsplash.jpg')
+          img(src='image/content-img/wes-hicks-4-EeTnaC1S4-unsplash.jpg')
+          img(src='image/content-img/joanna-kosinska-LAaSoL0LrYs-unsplash.jpg')
+          img(src='image/content-img/antoine-dautry-_zsL306fDck-unsplash.jpg')
+          img(src='image/content-img/andrew-neel-cckf4TsHAuw-unsplash.jpg')
+      #footer-end
+        p#footer-end-text
+          i.far.fa-copyright
+          | 2019 Boomerang, b&#x1EA3;n design &dstrok;&#x1B0;&#x1EE3;c th&#x1EF1;c hi&#x1EC7;n b&#x1EDF;i
+        p#footer-end-user Nguy&#x1EC5;n Th&#x1EBF; Th&#x1ECB;nh
